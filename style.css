@@ -992,7 +992,7 @@ h1{
   .card, .card-1, .card-2 {
     width: 90%;
     max-width: 320px;
-    height: 380px;
+    height: 250px;
   }
 
   .card-info, .card-info-1, .card-info-2 {
