@@ -632,13 +632,19 @@ h1{
 
 
 /*==========   PROJECT SECTION =========*/
+.get{
+  font-size: 18px;
+  color: #10b981;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 100px;
+}
 
-
-.project-title{
-  font-weight: 700;
-  margin-top: 35px;
-  margin-bottom: 39px;
-  font-size: 40px;
+.head{
+  font-size: 60.72px;
+  color: #fff;
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 .project-section{
