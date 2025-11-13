@@ -927,6 +927,24 @@ h1{
   h6{
     font-size: 20px;
   }
+  .project-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 40px 20px;
+  }
+
+  .card, .card-1, .card-2 {
+    width: 280px;
+    height: 400px;
+  }
+
+  .project-title {
+    font-size: 32px;
+    text-align: center;
+  }
+
   .dummy-button{ margin-top: 40px }
   .social-links{ justify-content: center }
   .skills-grid, .tech-skills-grid{
@@ -963,6 +981,28 @@ h1{
     font-size: 12px;
     padding: 4px 6px;
     white-space: nowrap;
+  }
+  .project-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 20px 10px;
+  }
+
+  .card, .card-1, .card-2 {
+    width: 90%;
+    max-width: 320px;
+    height: 380px;
+  }
+
+  .card-info, .card-info-1, .card-info-2 {
+    text-align: center;
+  }
+
+  .project-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
   }
 
   .hero-section{
