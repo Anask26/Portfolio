@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio.</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style-1.css">
 </head>
 <body>
 
@@ -16,10 +16,10 @@
       </div>
       <nav>
         <ul class="navigation-bar-list">
-          <li><a href="#header"> About</a></li>
-          <li><a href="#header"> Skills</a></li>
-          <li><a href="#header"> Projects</a></li>
-          <li><a href="#header"> Contact</a></li>
+          <li><a href="#about"> About</a></li>
+          <li><a href="#skills"> Skills</a></li>
+          <li><a href="#projects"> Projects</a></li>
+          <li><a href="#contact"> Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -27,32 +27,35 @@
 <!--HEADER SECTION ENDS-->  
 
 <!--hero section-->
-<div class="hero-section">
-  <button class="dummy-button">FRONT-END DEVELOPER</button>
-  <h6>Hi, I'm</h6>
-  <h1>Mohammed Anas K</h1>
-  <p>A passionate developer crafting elegant digital experiences with<br> clean code and creative solutions. Currently pursuing B.Sc at<br> The New College, Chennai.</p>
-  <button class="get-in-touch">Get In Touch</button>
-  <button class="learn-more">Learn More</button>
+<div  class="hero-section">
+  <div class="hero-section-1">
+    <button class="dummy-button">FRONT-END DEVELOPER</button>
+    <h6>Hi, I'm</h6>
+    <h1>Mohammed Anas K</h1>
+    <p>A passionate developer crafting elegant digital experiences with<br> clean code and creative solutions. Currently pursuing B.Sc at<br> The New College, Chennai.</p>
+    <a href="#contact" class="get-in-touch">Get In Touch</a>
+    <a href="#about" class="learn-more">Learn More</a>
 
-<div class="social-links">
-    <a href="mailto:anaskhader262006@gmail.com" rel="noopener noreferrer" target="_blank">
-      <img src="social media/icons8-mail-24.png" alt="Email" />
-    </a>
+    <div class="social-links">
+      <a href="mailto:anaskhader262006@gmail.com" rel="noopener noreferrer" target="_blank">
+        <img src="social media/icons8-mail-24.png" alt="Email" />
+      </a>
 
-    <a href="https://github.com/Anask26" rel="noopener noreferrer" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
-    </a>
+      <a href="https://github.com/Anask26" rel="noopener noreferrer" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" />
+      </a>
 
-    <a href="https://www.linkedin.com/in/www.linkedin.com/in/mohammed-anas-k-66747430b/" rel="noopener noopener" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
-    </a>
-</div>
+      <a href="https://www.linkedin.com/in/www.linkedin.com/in/mohammed-anas-k-66747430b/" rel="noopener noopener" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
+      </a>
+    </div>
+  </div>
+  
 </div>
 <!--hero section ends-->
 
 <!--ABOUT ME-->
-<div class="about-me">
+<div id="about" class="about-me">
   <p class="get">GET TO KNOW ME</p><br>
   <h3 class="head">About Me</h3>
 
@@ -70,7 +73,7 @@
 <!--About me ends here-->
 
 <!--Skills-->
-<div class="skills-grid">
+<div id="skills" class="skills-grid">
   <div class="clean">
     <img src="social media/application.png" alt="application">
     <h5>Clean Code Advocate</h5>
@@ -197,8 +200,9 @@
 
 
 <!--Project Section-->
-<h6 class="project-title">Projects</h6>
-<div class="project-section">
+<p id="projects" class="get">WHAT I HAVE DONE TILL NOW</p><br>
+<h3 class="head">Projects</h3>
+<div  class="project-section">
     <div class="card">
       <div class="front-page">
         <div class="card-info">
@@ -253,7 +257,7 @@
 
 
 <!--Get in TOUCH-->
-<div class="get-me">
+<div id="contact" class="get-me">
   <p class="Talk">LET'S CONNECT</p><br>
   <h3 class="Talk-to-me">Get In Touch</h3>
   <p class="Talk-to-me-dis">Have a project in mind or want to collaborate? Feel free to reach out!</p>
@@ -263,13 +267,13 @@
       <h4>Contact Information</h4>
     <div class="mail-flex">
       <img class="connect" src="social media/icons8-mail-24.png" alt="contact-email">
-      <p><strong>EMAIL</strong><br>
-      <p><br><a href="mailto:anaskhader262006@gmail.com" rel="noopener noreferrer" target="_blank">anaskhader262006@gmail.com</a></p>
+      <p><strong>EMAIL</strong>
+      <br><a href="mailto:anaskhader262006@gmail.com" rel="noopener noreferrer" target="_blank">anaskhader262006@gmail.com</a></p>
     </div>
     <div class="contact-flex">
       <img class="connect" src="social media/telephone.png" alt="contact-email">
       <p><strong>PHONE</strong> <br>
-      +91 6383629562</p>
+      <a href="tel:+916383629562">+91 6383629562</a></p>
     </div>
     <div class="location-flex">
       <img class="connect" src="social media/location.png" alt="contact-email">
@@ -296,10 +300,10 @@
 
 <!--Footer-->
 <div>
-  <footer id="about">
+  <footer>
     <div class="about">
       <p>For enquiries, contact me through the platforms below</p>
-      <p>Follow us on</p>
+      <p>Catch me on</p>
       <div class="social-links-1">
         <a href="mailto:anaskhader262006@gmail.com" rel="noopener noreferrer" target="_blank">
           <img src="social media/icons8-mail-24.png" alt="Email" />
