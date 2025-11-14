@@ -945,7 +945,8 @@ h1{
     gap: 1rem;
     padding: 0 1rem;
   }
-  .lets-connect{ flex-direction: column; gap: 30px }
+  .lets-connect{ flex-direction: column; gap: 30px;   padding-left: 10px;
+    padding-right: 10px;}
   .lets-connect-first, .lets-connect-second{ width: 100%; }
 }
 
@@ -1059,4 +1060,4 @@ h1{
     padding-right: 20px;
     padding-bottom: 40px;
   }
-
+}
