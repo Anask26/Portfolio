@@ -682,6 +682,8 @@ h1{
 .card-title{
   font-style: 2rem;
   font-weight: 600;
+  padding-bottom: 15px;
+  padding-top: 10px;
 }
 .back-page{
   background-color: #1e272e;
@@ -705,7 +707,10 @@ h1{
   font-size: 16px;
   font-weight: 600;
   padding: 12px;
+  margin-top: 15px;
   transition: background-color 0.3s ease;
+  display: inline-block;
+  text-decoration: none;
 }
 .card-1{
   width: 320px;
@@ -748,19 +753,23 @@ h1{
 .card-title-1{
   font-style: 2rem;
   font-weight: 600;
+  color: #000;
+  padding-bottom: 15px;
+  padding-top: 10px;
 }
 .back-page-1{
   background-color: #1e272e;
-  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   transform: rotateY(180deg);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
 }
-.card-discription-1{
+.card-description-1{
   font-size: 1rem;
-  color: #9ca3af;
+  color: #000;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .card-button-1{
   background-color: #10b981;
@@ -814,6 +823,8 @@ h1{
 .card-title-2{
   font-style: 2rem;
   font-weight: 600;
+  padding-bottom: 15px;
+  padding-top: 10px;
 }
 .back-page-2{
   background-color: #1e272e;
@@ -828,19 +839,11 @@ h1{
   font-size: 1rem;
   color: #9ca3af;
 }
-.card-button-2{
-  background-color: #10b981;
-  border: none;
-  border-radius: 8px;
-  color: #000;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  padding: 12px;
-  transition: background-color 0.3s ease;
+
+.card-button:hover{
+  color: white;
+  background-color: #000;
 }
-
-
 
 
 /*============ PROJECT SECTION ENDING*===========*/
@@ -986,7 +989,7 @@ h1{
   .card, .card-1, .card-2 {
     width: 90%;
     max-width: 320px;
-    height: 250px;
+    height: 290px;
   }
 
   .card-info, .card-info-1, .card-info-2 {
@@ -1016,7 +1019,7 @@ h1{
   .social-links a{ width: 44px; height: 44px }
   .social-links a img{ width: 20px; height: 20px }
 }
-@
+
 /*Project Section Responsive*/
 @media (max-width: 600px) {
   .project-section{
